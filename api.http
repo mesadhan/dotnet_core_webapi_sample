@@ -1,6 +1,30 @@
 ###
-GET http://localhost:5000/api/values
+GET https://localhost:5001/api/values
 
 
 ###
-GET http://localhost:5000
+GET https://localhost:5001/api/Todo
+
+
+###
+POST https://localhost:5001/api/Todo
+Content-Type: application/json
+
+{
+    "name": "Sadhan Sarker",
+    "isComplete": true
+}
+
+###
+PUT https://localhost:5001/api/Todo/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name":"Feed Fish",
+    "isComplete":true
+}
+
+
+###
+Delete https://localhost:5001/api/todo/2
