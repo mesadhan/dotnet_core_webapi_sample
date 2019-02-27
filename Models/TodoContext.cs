@@ -6,6 +6,7 @@ namespace dotnet_core_webapi_sample.Models
     {
         public TodoContext(DbContextOptions<TodoContext> options) : base(options)
         {
+            
         }
 
         public DbSet<TodoItem> TodoItems { get; set; }
