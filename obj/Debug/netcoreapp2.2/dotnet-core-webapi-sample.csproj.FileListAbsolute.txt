@@ -1,0 +1,14 @@
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/bin/Debug/netcoreapp2.2/dotnet-core-webapi-sample.deps.json
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/bin/Debug/netcoreapp2.2/dotnet-core-webapi-sample.runtimeconfig.json
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/bin/Debug/netcoreapp2.2/dotnet-core-webapi-sample.runtimeconfig.dev.json
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/bin/Debug/netcoreapp2.2/dotnet-core-webapi-sample.dll
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/bin/Debug/netcoreapp2.2/dotnet-core-webapi-sample.pdb
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.csprojAssemblyReference.cache
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.csproj.CoreCompileInputs.cache
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.RazorAssemblyInfo.cache
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.RazorAssemblyInfo.cs
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.AssemblyInfoInputs.cache
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.AssemblyInfo.cs
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.RazorTargetAssemblyInfo.cache
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.dll
+/Users/leads/sadhan-workspace/dotnet-core-webapi-sample/obj/Debug/netcoreapp2.2/dotnet-core-webapi-sample.pdb
