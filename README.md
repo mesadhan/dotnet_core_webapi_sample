@@ -1,7 +1,8 @@
 
-## .Net Core WebAPI Project
+# .Net Core WebAPI Project
 
 > Today we cover those things...
+
 - [x] 1. Add a model class.
 - [x] 2. Create the database context.
 - [x] 3. Register the database context.
@@ -11,20 +12,24 @@
 - [x] 7. Specify return values.
 - [x] 8. Call the web API with REST Client Extention.
 
+# Download .NET Core SDK First
 
+- [X] [Choose SDK Base on Operation System Then Install On Your System]( https://dotnet.microsoft.com/download )
 
 # How to Run And Test Applicaiton
+
 > First clone source file.
 > And then open terminal and hit below command
-    
+
     dotnet run
 
 > Then, open **api.http** file for test api.
 
+# Implementation
 
-## Implementation:
 > Step 1: Create Model Class, **Models/TodoItem.cs**
-```csharp 
+
+```csharp
 namespace dotnet_core_webapi_sample.Models {
     public class TodoItem
     {
@@ -35,8 +40,8 @@ namespace dotnet_core_webapi_sample.Models {
 }
 ```
 
-
 > Step 2: Create the database context, **Models/TodoContext.cs**
+
 ```csharp
 
 using Microsoft.EntityFrameworkCore;
@@ -51,7 +56,6 @@ namespace dotnet_core_webapi_sample.Models
 }
 ```
 
-
 > Setp 3: Here, **Startup.css** file method updated
 
 ```csharp
@@ -60,7 +64,7 @@ public void ConfigureServices(IServiceCollection services)
     // Config In Memory Database
     services.AddDbContext<TodoContext>(opt =>
         opt.UseInMemoryDatabase("TodoList"));
-        
+
     services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 }
 ```
@@ -155,16 +159,13 @@ namespace dotnet_core_webapi_sample.Controller {
 > Step 8: Run server and then, open **api.http** file for test api.
 > Send Request to different endpint and test output
 
-
-
 ## Create New Project From Scratch
+
 > If you want to create new project from scratch then hit below command
 
     dotnet new webapi -o TodoApi
 
-
-
-# References:
+# References
 
 [Offical Doc. For Web API](
     https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio-code
