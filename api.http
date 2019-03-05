@@ -28,3 +28,9 @@ Content-Type: application/json
 
 ###
 Delete https://localhost:5001/api/todo/2
+
+
+### ----------------- Person Controller
+
+GET https://localhost:5001/api/person
+
