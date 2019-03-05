@@ -167,7 +167,7 @@ namespace dotnet_core_webapi_sample.Controller {
 
 > Create console base application
     
-    dotnet new console -o TodoApi
+    dotnet new console -o TestApp
 
 # References
 
