@@ -23,8 +23,8 @@ namespace dotnet_core_webapi_sample.Controller {
                 new Person { Id = 2, Name = "Ripon Sarker", Address = "Mirpur" }
             };
 
-            return personsOne;
             //return personsTwo;
+            return personsOne;
         }
 
     }

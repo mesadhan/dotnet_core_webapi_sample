@@ -161,9 +161,13 @@ namespace dotnet_core_webapi_sample.Controller {
 
 ## Create New Project From Scratch
 
-> If you want to create new project from scratch then hit below command
+> Create webapi base application
 
     dotnet new webapi -o TodoApi
+
+> Create console base application
+    
+    dotnet new console -o TodoApi
 
 # References
 
