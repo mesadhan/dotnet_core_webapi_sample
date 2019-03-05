@@ -169,6 +169,11 @@ namespace dotnet_core_webapi_sample.Controller {
     
     dotnet new console -o TestApp
 
+> About more cli template hit
+
+    dotnet new <Enter>
+
+
 # References
 
 [Offical Doc. For Web API](
